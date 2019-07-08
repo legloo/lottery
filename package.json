@@ -1,6 +1,6 @@
 {
   "name": "lottery-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "functions of lottery",
   "main": "/dist/index.js",
   "scripts": {
