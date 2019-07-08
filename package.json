@@ -1,5 +1,5 @@
 {
-  "name": "lottery",
+  "name": "lottery-utils",
   "version": "1.0.0",
   "description": "functions of lottery",
   "main": "index.js",
