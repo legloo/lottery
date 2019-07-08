@@ -1,20 +1,10 @@
-// 'use strict';
-// const expect = require('chai').expect;
+'use strict';
 const utils = require('../dist/index.js');
 
-// describe('ts-hi function test', () => {
-//   it('should return hello', () => {
-//     const result = lottery.Lottery('hello');
-//     console.log(result.text());
-//   });
-// });
-// lotto.
-// console.log(lotto.text());
-console.log(1);
-let str = utils.default.findCurrent()
-console.log(str);
-console.log(utils);
-// utils
-// lottery.Lottery('hello');
-// lottery.Lottery.test();
-// lottery.Lottery.prototype.testWord
+describe('ts-hi function test', () => {
+    it('should return 3', () => {
+        let rules = [3, 2, 1, 4, 5]
+        let res = utils.combination(rules);
+        console.log(res);
+    });
+});
