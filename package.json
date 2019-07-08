@@ -4,7 +4,8 @@
   "description": "functions of lottery",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/zhuyuhaoliar/lottery/issues"
   },
-  "homepage": "https://github.com/zhuyuhaoliar/lottery#readme"
+  "homepage": "https://github.com/zhuyuhaoliar/lottery#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.2"
+  }
 }
