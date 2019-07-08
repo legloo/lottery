@@ -1,5 +1,5 @@
 # lottery
 functions of lottery
 
-#Des
+# Des
 占位
