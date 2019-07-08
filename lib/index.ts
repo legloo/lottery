@@ -1,5 +1,4 @@
 class Lottery {
-    // testWord: string = 'hello'
     constructor(
         public testword: string
     ) {
