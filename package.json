@@ -1,0 +1,23 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "functions of lottery",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuyuhaoliar/lottery.git"
+  },
+  "keywords": [
+    "lottery",
+    "lotto"
+  ],
+  "author": "yuhao zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuyuhaoliar/lottery/issues"
+  },
+  "homepage": "https://github.com/zhuyuhaoliar/lottery#readme"
+}
