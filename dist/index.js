@@ -1,17 +1,6 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var Lottery = /** @class */ (function () {
-    // testWord: string = 'hello'
-    function Lottery(testword) {
-        this.testword = testword;
-    }
-    Lottery.prototype.test = function () {
-        console.log(this.testword);
-    };
-    return Lottery;
-}());
-function run(word) {
-    var red = new Lottery(word);
-    red.test();
+function __export(m) {
+    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
 }
-exports.run = run;
+Object.defineProperty(exports, "__esModule", { value: true });
+__export(require("./combination"));

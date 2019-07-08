@@ -11,8 +11,10 @@ const utils = require('../dist/index.js');
 // lotto.
 // console.log(lotto.text());
 console.log(1);
-// console.log(run);
-utils.run('hello');
+let str = utils.default.findCurrent()
+console.log(str);
+console.log(utils);
+// utils
 // lottery.Lottery('hello');
 // lottery.Lottery.test();
 // lottery.Lottery.prototype.testWord

@@ -1,1 +1,1 @@
-export declare function run(word: string): void;
+export * from './combination';
