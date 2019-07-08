@@ -1,0 +1,2 @@
+# lottery
+functions of lottery
